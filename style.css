@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'unbpro_regular';
+    src: url('fonts/unbpro_regular/unb_pro_regular-webfont.eot');
+    src: url('fonts/unbpro_regular/unb_pro_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/unbpro_regular/unb_pro_regular-webfont.woff2') format('woff2'),
+         url('fonts/unbpro_regular/unb_pro_regular-webfont.woff') format('woff'),
+         url('fonts/unbpro_regular/unb_pro_regular-webfont.ttf') format('truetype'),
+         url('fonts/unbpro_regular/unb_pro_regular-webfont.svg#unb_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'unbpro_regular';
+}
+
+/* HEADER DES PAGES */
+.headerIndex {
+    color: #3592b1; 
+    position: relative;
+    z-index: 2;
+    font-size: 40px;
+    margin-top: 15%;
+    margin-left: 2%;
+}
+
+.backgroundHeader{
+    width: 100%;
+    margin-top: -25%;
+    position: relative;
+    z-index: 1;
+}
+
+/*BOUTONS*/
+.buttonAjout{
+    text-decoration: none;
+    background-color: #ffd300;
+    padding: 0.8% 2% 10px 2%;
+}
+
+.buttonCreat{
+    text-decoration: none;
+    background-color: #ffd300;
+    padding: 0.8% 2% 10px 2%;
+    margin: 1% 46% 0 46%;
+}
+
+
+/* PAGE D'ACCUEIL */
+.listeVoyages{ 
+    
+    background-color: #45474a;
+    margin: auto;
+}
+
+.puceVoyage{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1%;
+}
+
+/* PAGE AJOUTER */
+
+.formulaire{
+    position: relative;
+    z-index: 2;
+    text-align: center; 
+    background-color: #45474a;
+    color: white;  
+    width: 80%; 
+    height: 87%;
+    margin: -5% auto 0 auto;
+}
